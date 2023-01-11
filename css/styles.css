@@ -1,0 +1,14 @@
+.snake__wrapper {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "canvas info"
+        "canvas info";
+}
+.game__info {
+    grid-area: info;
+}
+.game__canvas {
+    grid-area: canvas;
+}
